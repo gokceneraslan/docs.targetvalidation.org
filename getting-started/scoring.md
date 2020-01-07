@@ -19,9 +19,8 @@ Our scoring framework is a four-tier process: we first score the individual evid
 
 At each aggregation step, denoted by the `sum` symbol above, we apply the [harmonic progression](https://en.wikipedia.org/wiki/Harmonic_progression_%28mathematics%29) using the following formula as follows:
 
-```text
-S1 + S2/22 + S3/32 + S4/42 + Si/i2
-```
+![equation](http://latex.codecogs.com/svg.latex?S_1%20+%20%5Cfrac%7BS_2%7D%7B2%5E2%7D%20+%20%5Cfrac%7BS_3%7D%7B3%5E2%7D%20+%20%5Cfrac%7BS_4%7D%7B4%5E2%7D%20...%20+%20%5Cfrac%7BS_i%7D%7Bi%5E2%7D)
+
 
 ## Computing the Association Score  <a id="computing-the-association-score"></a>
 
